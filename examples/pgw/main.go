@@ -27,9 +27,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/wmnsk/go-gtp/gtpv1"
-	"github.com/wmnsk/go-gtp/gtpv2"
-	"github.com/wmnsk/go-gtp/gtpv2/message"
+	"github.com/amit-pandia/go-gtp/gtpv1"
+	"github.com/amit-pandia/go-gtp/gtpv2"
+	"github.com/amit-pandia/go-gtp/gtpv2/message"
 )
 
 // command-line arguments

@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
 )
 
 // Message Type definitions.

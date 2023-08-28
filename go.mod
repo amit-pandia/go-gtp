@@ -1,4 +1,4 @@
-module github.com/wmnsk/go-gtp
+module github.com/amit-pandia/go-gtp
 
 go 1.20
 

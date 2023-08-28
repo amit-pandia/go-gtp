@@ -10,6 +10,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
+	ie2 "github.com/amit-pandia/go-gtp/gtpprime/ie"
 	"io"
 	"net"
 	"os"
@@ -17,10 +18,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/amit-pandia/go-gtp/gtpv1/ie"
+	"github.com/amit-pandia/go-gtp/gtpv1/message"
+	v2ie "github.com/amit-pandia/go-gtp/gtpv2/ie"
 	"github.com/vishvananda/netlink"
-	"github.com/wmnsk/go-gtp/gtpv1/ie"
-	"github.com/wmnsk/go-gtp/gtpv1/message"
-	v2ie "github.com/wmnsk/go-gtp/gtpv2/ie"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
 )
@@ -678,7 +679,7 @@ func (u *UPlaneConn) Restarts() uint8 {
 // time to find a new unique value.
 //
 // TODO: optimize performance...
-func (u *UPlaneConn) NewFTEID(ifType uint8, v4, v6 string) (fteidIE *v2ie.IE) {
+func (u *UPlaneConn) NewFTEID(ifType uint8, v4, v6 string) (fteidIE *ie2.IE) {
 	var teid uint32
 	for try := uint32(0); try < 0xffff; try++ {
 		const logEvery = 0xff

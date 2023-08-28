@@ -5,7 +5,7 @@ package message_test
 import (
 	"testing"
 
-	"github.com/wmnsk/go-gtp/gtpv2/message"
+	"github.com/amit-pandia/go-gtp/gtpv2/message"
 )
 
 func FuzzParse(f *testing.F) {

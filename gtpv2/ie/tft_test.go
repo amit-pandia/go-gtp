@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
 	"github.com/google/go-cmp/cmp"
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
 )
 
 func TestTrafficFlowTemplate(t *testing.T) {

@@ -5,7 +5,7 @@
 package message
 
 import (
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
 )
 
 // ResumeAcknowledge is a ResumeAcknowledge Header and its Cause and Private Extension IEs.

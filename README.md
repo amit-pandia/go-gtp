@@ -2,10 +2,10 @@
 
 Package gtp provides simple and painless handling of GTP(GPRS Tunneling Protocol), implemented in the Go Programming Language.
 
-![CI status](https://github.com/wmnsk/go-gtp/actions/workflows/go.yml/badge.svg)
-[![golangci-lint](https://github.com/wmnsk/go-gtp/actions/workflows/golangci-lint.yml/badge.svg)](https://github.com/wmnsk/go-gtp/actions/workflows/golangci-lint.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/wmnsk/go-gtp.svg)](https://pkg.go.dev/github.com/wmnsk/go-gtp)
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmnsk/go-gtp/blob/master/LICENSE)
+![CI status](https://github.com/amit-pandia/go-gtp/actions/workflows/go.yml/badge.svg)
+[![golangci-lint](https://github.com/amit-pandia/go-gtp/actions/workflows/golangci-lint.yml/badge.svg)](https://github.com/amit-pandia/go-gtp/actions/workflows/golangci-lint.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/amit-pandia/go-gtp.svg)](https://pkg.go.dev/github.com/amit-pandia/go-gtp)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/amit-pandia/go-gtp/blob/master/LICENSE)
 
 ## Features
 
@@ -114,10 +114,10 @@ This is still an experimental project. Any part of implementations(including exp
 
 ## Author(s)
 
-Yoshiyuki Kurauchi ([Website](https://wmnsk.com/) / [Twitter](https://twitter.com/wmnskdmms))
+Yoshiyuki Kurauchi ([Website](https://amit-pandia.com/) / [Twitter](https://twitter.com/amit-pandiadmms))
 
 _I'm always open to welcome co-authors! Please feel free to talk to me._
 
 ## LICENSE
 
-[MIT](https://github.com/wmnsk/go-gtp/blob/master/LICENSE)
+[MIT](https://github.com/amit-pandia/go-gtp/blob/master/LICENSE)

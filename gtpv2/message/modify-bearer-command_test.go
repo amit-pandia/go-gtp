@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
-	"github.com/wmnsk/go-gtp/gtpv2/message"
-	"github.com/wmnsk/go-gtp/gtpv2/testutils"
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
+	"github.com/amit-pandia/go-gtp/gtpv2/message"
+	"github.com/amit-pandia/go-gtp/gtpv2/testutils"
 )
 
 func TestModifyBearerCommand(t *testing.T) {

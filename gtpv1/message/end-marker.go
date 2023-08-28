@@ -5,7 +5,7 @@
 package message
 
 import (
-	"github.com/wmnsk/go-gtp/gtpv1/ie"
+	"github.com/amit-pandia/go-gtp/gtpv1/ie"
 )
 
 // EndMarker is a EndMarker Header and its IEs above.

@@ -8,8 +8,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
-	"github.com/wmnsk/go-gtp/gtpv2/message"
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
+	"github.com/amit-pandia/go-gtp/gtpv2/message"
 )
 
 // HandlerFunc is a handler for specific GTPv2-C message.

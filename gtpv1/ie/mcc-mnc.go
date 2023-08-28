@@ -7,7 +7,7 @@ package ie
 import (
 	"io"
 
-	"github.com/wmnsk/go-gtp/utils"
+	"github.com/amit-pandia/go-gtp/utils"
 )
 
 // MCC returns MCC value if type matches.

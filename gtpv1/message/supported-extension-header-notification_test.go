@@ -7,9 +7,9 @@ package message_test
 import (
 	"testing"
 
-	"github.com/wmnsk/go-gtp/gtpv1/ie"
-	"github.com/wmnsk/go-gtp/gtpv1/message"
-	"github.com/wmnsk/go-gtp/gtpv1/testutils"
+	"github.com/amit-pandia/go-gtp/gtpv1/ie"
+	"github.com/amit-pandia/go-gtp/gtpv1/message"
+	"github.com/amit-pandia/go-gtp/gtpv1/testutils"
 )
 
 func TestSupportedExtensionHeaderNotification(t *testing.T) {

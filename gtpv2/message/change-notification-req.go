@@ -4,7 +4,7 @@
 
 package message
 
-import "github.com/wmnsk/go-gtp/gtpv2/ie"
+import "github.com/amit-pandia/go-gtp/gtpv2/ie"
 
 // ChangeNotificationRequest is a ChangeNotificationRequest Header and its IEs above.
 type ChangeNotificationRequest struct {

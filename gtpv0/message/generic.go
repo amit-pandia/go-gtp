@@ -7,7 +7,7 @@ package message
 import (
 	"fmt"
 
-	"github.com/wmnsk/go-gtp/gtpv0/ie"
+	"github.com/amit-pandia/go-gtp/gtpv0/ie"
 )
 
 // Generic is a Generic Header and its IEs above.

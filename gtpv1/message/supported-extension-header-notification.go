@@ -5,7 +5,7 @@
 package message
 
 import (
-	"github.com/wmnsk/go-gtp/gtpv1/ie"
+	"github.com/amit-pandia/go-gtp/gtpv1/ie"
 )
 
 // SupportedExtensionHeaderNotification is a SupportedExtensionHeaderNotification Header and its IEs above.

@@ -4,7 +4,7 @@
 
 package message
 
-import "github.com/wmnsk/go-gtp/gtpv2/ie"
+import "github.com/amit-pandia/go-gtp/gtpv2/ie"
 
 // ChangeNotificationResponse is a ChangeNotificationResponse Header and its IEs above.
 type ChangeNotificationResponse struct {

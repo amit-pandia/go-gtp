@@ -5,7 +5,7 @@
 package message
 
 import (
-	"github.com/wmnsk/go-gtp/gtpv0/ie"
+	"github.com/amit-pandia/go-gtp/gtpv0/ie"
 )
 
 // UpdatePDPContextResponse is a UpdatePDPContextResponse Header and its IEs above.

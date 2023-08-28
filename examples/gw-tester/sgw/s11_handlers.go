@@ -6,13 +6,14 @@ package main
 
 import (
 	"fmt"
+	ie2 "github.com/amit-pandia/go-gtp/gtpprime/ie"
 	"log"
 	"net"
 	"time"
 
-	"github.com/wmnsk/go-gtp/gtpv2"
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
-	"github.com/wmnsk/go-gtp/gtpv2/message"
+	"github.com/amit-pandia/go-gtp/gtpv2"
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
+	"github.com/amit-pandia/go-gtp/gtpv2/message"
 )
 
 func (s *sgw) handleCreateSessionRequest(s11Conn *gtpv2.Conn, mmeAddr net.Addr, msg message.Message) error {
@@ -465,7 +466,7 @@ func (s *sgw) handleDeleteBearerResponse(s11Conn *gtpv2.Conn, mmeAddr net.Addr, 
 	return nil
 }
 
-func (s *sgw) handleFTEIDU(fteiduIE *ie.IE, session *gtpv2.Session, bearer *gtpv2.Bearer) error {
+func (s *sgw) handleFTEIDU(fteiduIE *ie2.IE, session *gtpv2.Session, bearer *gtpv2.Bearer) error {
 	if fteiduIE.Type != ie.FullyQualifiedTEID {
 		return &gtpv2.UnexpectedIEError{IEType: fteiduIE.Type}
 	}

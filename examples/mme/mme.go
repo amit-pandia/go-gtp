@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/wmnsk/go-gtp/gtpv2"
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
-	"github.com/wmnsk/go-gtp/gtpv2/message"
+	"github.com/amit-pandia/go-gtp/gtpv2"
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
+	"github.com/amit-pandia/go-gtp/gtpv2/message"
 )
 
 func handleCreateSessionResponse(c *gtpv2.Conn, sgwAddr net.Addr, msg message.Message) error {

@@ -6,13 +6,14 @@ package main
 
 import (
 	"fmt"
+	ie2 "github.com/amit-pandia/go-gtp/gtpprime/ie"
 	"log"
 	"net"
 	"time"
 
-	"github.com/wmnsk/go-gtp/gtpv2"
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
-	"github.com/wmnsk/go-gtp/gtpv2/message"
+	"github.com/amit-pandia/go-gtp/gtpv2"
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
+	"github.com/amit-pandia/go-gtp/gtpv2/message"
 )
 
 func (s *sgw) handleCreateSessionResponse(s5cConn *gtpv2.Conn, pgwAddr net.Addr, msg message.Message) error {
@@ -196,7 +197,7 @@ func (s *sgw) handleDeleteBearerRequest(s5cConn *gtpv2.Conn, pgwAddr net.Addr, m
 	dbReqFromPGW := msg.(*message.DeleteBearerRequest)
 
 	var dbRspFromSGW *message.DeleteBearerResponse
-	var ebi *ie.IE
+	var ebi *ie2.IE
 
 	if ie := dbReqFromPGW.LinkedEBI; ie != nil {
 		ebi = ie

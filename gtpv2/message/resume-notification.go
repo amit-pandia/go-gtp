@@ -5,7 +5,7 @@
 package message
 
 import (
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
 )
 
 // ResumeNotification is a ResumeNotification Header and its IEs.

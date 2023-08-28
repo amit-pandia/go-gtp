@@ -3,7 +3,7 @@ package gtpv1_test
 import (
 	"testing"
 
-	"github.com/wmnsk/go-gtp/gtpv1"
+	"github.com/amit-pandia/go-gtp/gtpv1"
 )
 
 func FuzzDecapsulate(f *testing.F) {

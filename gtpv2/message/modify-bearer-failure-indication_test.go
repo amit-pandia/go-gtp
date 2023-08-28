@@ -7,10 +7,10 @@ package message_test
 import (
 	"testing"
 
-	"github.com/wmnsk/go-gtp/gtpv2"
-	"github.com/wmnsk/go-gtp/gtpv2/ie"
-	"github.com/wmnsk/go-gtp/gtpv2/message"
-	"github.com/wmnsk/go-gtp/gtpv2/testutils"
+	"github.com/amit-pandia/go-gtp/gtpv2"
+	"github.com/amit-pandia/go-gtp/gtpv2/ie"
+	"github.com/amit-pandia/go-gtp/gtpv2/message"
+	"github.com/amit-pandia/go-gtp/gtpv2/testutils"
 )
 
 func TestModifyBearerFailureIndication(t *testing.T) {

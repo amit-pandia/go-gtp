@@ -7,9 +7,9 @@ package ie_test
 import (
 	"testing"
 
+	"github.com/amit-pandia/go-gtp/gtpv0"
+	"github.com/amit-pandia/go-gtp/gtpv0/ie"
 	"github.com/google/go-cmp/cmp"
-	"github.com/wmnsk/go-gtp/gtpv0"
-	"github.com/wmnsk/go-gtp/gtpv0/ie"
 )
 
 func TestIE(t *testing.T) {
